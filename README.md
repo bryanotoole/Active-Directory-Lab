@@ -44,58 +44,74 @@ Figure 3: Admin user created within the Domain controller virtual machine.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%202.%20Admin%20User%20Created%20Within%20Domain%20Controller%20Virtual%20Machine.PNG"/> <br />
 <br />
 <p align="center">
-Figure 4: PowerShell script used to upload organizational 1,000 users into the domain.
+Figure 4: Successful admin login to Domain Controller after creation within AD.
+<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%201.%20Admin%20User%20Domain%20Controller%20Login%20Screen.PNG"/> <br />
+<br />
+<p align="center">
+Figure 5: PowerShell script used to upload organizational 1,000 users into the domain.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%204.%20PowerShell%20Script%20to%20Create%201000%20Users.PNG"/> <br />
 <br />
 <p align="center">
-Figure 5: PowerShell view of user creation files before running.
+Figure 6: PowerShell view of user creation files before running.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%205.%20PowerShell%20View%20of%20User%20Creation%20Files%20Before%20Running.PNG"/> <br />
 <br />
 <p align="center">
-Figure 6: Users shown in AD after PowerShell upload.
+Figure 7: Users shown in AD after PowerShell upload.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%206.%20Users%20Shown%20In%20AD%20After%20PowerShell%20Upload.PNG"/> <br />
 <br />
 <p align="center">
-Figure 7: CLIENT1 virtual machine Command Prompt showing confirmed connection with mydomain.com.
+Figure 8: CLIENT1 virtual machine Command Prompt showing confirmed connection with mydomain.com.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%207.%20CLIENT1%20Host%20VM%20IPConig%20Setup.PNG"/> <br />
 <br />
 <p align="center">
-Figure 8: Lease for CLIENT1 confirmed from DHCP within the Domain Controller.
+Figure 9: Lease for CLIENT1 confirmed from DHCP within the Domain Controller.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%208.%20Lease%20For%20CLIENT1%20User%20From%20DHCP%20View%20In%20Domain%20Controller.PNG"/> <br />
 <br />
 <p align="center">
-Figure 9: Password Policy settings configured to meet organizational requirements.
+Figure 10: Password Policy settings configured to meet organizational requirements.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2021.%20Changed%20Default%20Password%20Policies.PNG"/> <br />
 <br />
 <p align="center">
-Figure 10: Account Lockout Policy setting configured to meet organizational requirements.
+Figure 11: Account Lockout Policy setting configured to meet organizational requirements.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2020.%20Configured%20Account%20Lockout%20Attempts.PNG"/> <br />
 <br />
 <p align="center">
-Figure 11: Password Policy settings configured to meet organizational requirements.
+Figure 12: Password Policy settings configured to meet organizational requirements.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2021.%20Changed%20Default%20Password%20Policies.PNG"/> <br />
 <br />
 <p align="center">
-Figure 12: New user Humbleton Fouse created wuthin AD.
+Figure 13: New user Humbleton Fouse created wuthin AD.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2011.%20New%20User%20Humbleton%20Fouse.PNG"/> <br />
 <br />
 <p align="center">
-Figure 12: New user Humbleton Fouse created wuthin AD.
+Figure 14: New user Humbleton Fouse created wuthin AD.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2011.%20New%20User%20Humbleton%20Fouse.PNG"/> <br />
 <br />
 <p align="center">
-Figure 13: Humbleton Fouse next logon password change setting enabled.
+Figure 15: Humbleton Fouse next logon password change setting enabled.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2012.%20Humbleton%20Fouse%20Next%20Logon%20Password%20Change%20Setting%20Enabled.PNG"/> <br />
 <br />
 <p align="center">
-Figure 14: Humbleton Fouse password change prompt when attempting to login to CLIENT1.
+Figure 16: Humbleton Fouse password change prompt when attempting to login to CLIENT1.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2014.%20Humbleton%20Fouse%20Password%20Change%20Prompt.PNG"/> <br />
 <br />
 <p align="center">
-Figure 15: Successful password change for Humbleton Fouse while attempting to login to CLIENT1.
+Figure 17: Successful password change for Humbleton Fouse while attempting to login to CLIENT1.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2015.%20Successful%20Password%20Change%20For%20Humbleton%20Fouse.PNG"/> <br />
 <br />
 <p align="center">
-Figure 16: Successful logon for Humbleton Fouse into CLIENT1.
+Figure 18: Successful logon for Humbleton Fouse into CLIENT1.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2016.%20Humbleton%20Fouse%20Successful%20Signon%20After%20Password%20Change.PNG"/> <br />
+<br />
+<p align="center">
+Figure 19: Leonel Cavalier account lockout after too many failed login attempts.
+<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2022.%20Leonel%20Cavalier%20Account%20Lockout.PNG"/> <br />
+<br />
+<p align="center">
+Figure 20: Leonel Cavalier password reset and account unlocked in AD.
+<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2023.%20Leonel%20Cavalier%20Password%20Reset%20%26%20Account%20Unlocked%20AD%20Settings.PNG"/> <br />
+<br />
+<p align="center">
+Figure 21: Leonel Cavalier successfully logging into CLIENT1 after password reset and account unlock.
+<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2024.%20Leonel%20Cavalier%20Successful%20Logon%20After%20Account%20Unlock.PNG"/> <br />
 <br />
