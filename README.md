@@ -27,7 +27,7 @@
 - PowerShell
 
 ##  Background
-The purpose of this lab is to simulate setting up a basic virtual network for an organization and managing its users within Active Directory. This lab demonstrate a basic understanding of virtual network setup and Active Directory functionality. The progress of this lab is outlined in the Description above and displayed in the Screenshots below.
+The purpose of this lab is to simulate setting up a basic virtual network for an organization and managing its users within Active Directory. This lab demonstrates a basic understanding of virtual network setup and Active Directory functionality. The progress of this lab is outlined in the Description above and displayed in the Screenshots below.
   
 ## Screenshots
 
@@ -36,7 +36,7 @@ Figure 1: Virtual machine setup in Oracle VirtualBox.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2025.%20Virtual%20Machines%20Used.PNG"/> <br />
 <br />
 <p align="center">
-Figure 2: Virtaul network diagram serving as the foundational setup for this lab. <br/>
+Figure 2: Virtual network diagram serving as the foundational setup for this lab. <br/>
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%20Network%20Diagram.PNG"/> <br />
 <br />
 <p align="center">
