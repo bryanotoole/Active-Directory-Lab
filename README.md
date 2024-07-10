@@ -2,10 +2,10 @@
 
 ## Description
 - Created a domain controller virtual machine based on Microsoft Server 2019 ISO (Domain Controller) and a Windows 10 (Windows 10 ISO) virtual machine to serve as the client (CLIENT1)
-- Set up an internal and external network for the Domain Controller virtual machine serve as a bridge between the internet, DC, and CLIENT1
-- Created an admin user (self) within mydomain.com (a-botoole@mydomain.com) to manage the other users within the Active Directory
+- Set up an internal and external network for the Domain Controller virtual machine to serve as a bridge between the internet, DC, and CLIENT1
+- Created an admin user (self) within mydomain.com (a-botoole@mydomain.com) to manage the other users within Active Directory
 - Ran a PowerShell script to upload 1,000 users into Active Directory
-- Successfully tested and confirmed a connection between the Domain Controller and CLIENT1
+- Successfully tested and confirmed the network connection between Domain Controller and CLIENT1
 - Confirmed CLIENT1’s address lease was valid for the appropriate period of time
 - Modified Password Policies from default to meet organizational requirements
 - Enabled Account Lockout Policies to meet organizational requirements
@@ -16,7 +16,7 @@
 ## Skills Learned
 - Virtual network setup
 - Active Directory management
-- PowerShell Syntax
+- PowerShell syntax
 - Account and Password Policy Configuration
 
 
@@ -40,7 +40,7 @@ Figure 2: Virtaul network diagram serving as the foundational setup for this lab
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%20Network%20Diagram.PNG"/> <br />
 <br />
 <p align="center">
-Figure 3: Admin user created within the Domain controller virtual machine.
+Figure 3: Admin user created within the Domain Controller virtual machine.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%202.%20Admin%20User%20Created%20Within%20Domain%20Controller%20Virtual%20Machine.PNG"/> <br />
 <br />
 <p align="center">
@@ -76,42 +76,34 @@ Figure 11: Account Lockout Policy setting configured to meet organizational requ
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2020.%20Configured%20Account%20Lockout%20Attempts.PNG"/> <br />
 <br />
 <p align="center">
-Figure 12: Password Policy settings configured to meet organizational requirements.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2021.%20Changed%20Default%20Password%20Policies.PNG"/> <br />
-<br />
-<p align="center">
-Figure 13: New user Humbleton Fouse created wuthin AD.
+Figure 12: New user Humbleton Fouse created within AD.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2011.%20New%20User%20Humbleton%20Fouse.PNG"/> <br />
 <br />
 <p align="center">
-Figure 14: New user Humbleton Fouse created wuthin AD.
-<img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2011.%20New%20User%20Humbleton%20Fouse.PNG"/> <br />
-<br />
-<p align="center">
-Figure 15: Humbleton Fouse next logon password change setting enabled.
+Figure 13: Humbleton Fouse next logon password change setting enabled.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2012.%20Humbleton%20Fouse%20Next%20Logon%20Password%20Change%20Setting%20Enabled.PNG"/> <br />
 <br />
 <p align="center">
-Figure 16: Humbleton Fouse password change prompt when attempting to login to CLIENT1.
+Figure 14: Humbleton Fouse password change prompt when attempting to login to CLIENT1.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2014.%20Humbleton%20Fouse%20Password%20Change%20Prompt.PNG"/> <br />
 <br />
 <p align="center">
-Figure 17: Successful password change for Humbleton Fouse while attempting to login to CLIENT1.
+Figure 15: Successful password change for Humbleton Fouse while attempting to login to CLIENT1.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2015.%20Successful%20Password%20Change%20For%20Humbleton%20Fouse.PNG"/> <br />
 <br />
 <p align="center">
-Figure 18: Successful logon for Humbleton Fouse into CLIENT1.
+Figure 16: Successful logon for Humbleton Fouse into CLIENT1.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2016.%20Humbleton%20Fouse%20Successful%20Signon%20After%20Password%20Change.PNG"/> <br />
 <br />
 <p align="center">
-Figure 19: Leonel Cavalier account lockout after too many failed login attempts.
+Figure 17: Leonel Cavalier account lockout after too many failed login attempts.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2022.%20Leonel%20Cavalier%20Account%20Lockout.PNG"/> <br />
 <br />
 <p align="center">
-Figure 20: Leonel Cavalier password reset and account unlocked in AD.
+Figure 18: Leonel Cavalier password reset and account unlocked in AD.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2023.%20Leonel%20Cavalier%20Password%20Reset%20%26%20Account%20Unlocked%20AD%20Settings.PNG"/> <br />
 <br />
 <p align="center">
-Figure 21: Leonel Cavalier successfully logging into CLIENT1 after password reset and account unlock.
+Figure 19: Leonel Cavalier successfully logging into CLIENT1 after password reset and account unlock.
 <img src="https://github.com/bryanotoole/Project-Pictures/blob/main/AD%2024.%20Leonel%20Cavalier%20Successful%20Logon%20After%20Account%20Unlock.PNG"/> <br />
 <br />
