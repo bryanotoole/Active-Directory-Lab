@@ -18,6 +18,7 @@
 - Active Directory management
 - PowerShell syntax
 - Account and Password Policy Configuration
+- Zero Trust Principles
 
 
 ## Tools & Technology Used
